@@ -4,7 +4,7 @@
 #Initialize array
 declare -a admin_list=()
 # Declare known admins
-declare -a known_admins=('root' 'admin' 'mgmt_jamf' 'jsmola' 'dcaldwell' 'rpendela' 'sgumbula' 'memile')
+declare -a known_admins=('root' 'admin' 'mgmt_jamf' '' '' '' '' '')
 
 # Add unknown admins users to array
 function add_admins
